@@ -1,0 +1,50 @@
+@import "bootstrap";
+
+body {
+  font-family: "Raleway";
+}
+
+.navbar-default {
+    min-height: 70px;
+    border: none;
+    box-shadow: 0 8px 6px -6px #C5C3C6;
+}
+
+.navbar-collapse {
+  margin-left: auto;
+  margin-right: auto;
+}
+.navbar-nav > li > a {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    line-height: 70px;
+}
+
+.navbar {
+  .brand {
+    max-height: 50px;
+    overflow: visible;
+    margin-top: -10px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .name {
+    margin-top: 6px;
+  }
+}
+
+
+@media (max-width: 767px) {
+  .navbar-default {
+    min-height: 50px;
+  }
+  .navbar-nav > li > a {
+    line-height: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .navbar .brand {
+    max-height: 40px;
+  }
+}

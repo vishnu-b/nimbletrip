@@ -44,7 +44,7 @@
       </ol>
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-          <img class="first-slide" src="http://lorempixel.com/output/nightlife-q-c-1370-441-6.jpg" alt="First slide">
+          <img class="first-slide" src="http://lorempixel.com/output/people-q-c-640-480-8.jpg" alt="First slide">
           <div class="container">
             <div class="carousel-caption">
               <h1>Example headline.</h1>
@@ -54,7 +54,7 @@
           </div>
         </div>
         <div class="item">
-          <img class="second-slide" src="http://lorempixel.com/output/nightlife-q-c-1370-441-6.jpg" alt="Second slide">
+          <img class="second-slide" src="http://lorempixel.com/output/people-q-c-640-480-8.jpg" alt="Second slide">
           <div class="container">
             <div class="carousel-caption">
               <h1>Another example headline.</h1>
@@ -64,7 +64,7 @@
           </div>
         </div>
         <div class="item">
-          <img class="third-slide" src="http://lorempixel.com/output/nightlife-q-c-1370-441-6.jpg" alt="Third slide">
+          <img class="third-slide" src="http://lorempixel.com/output/people-q-c-640-480-8.jpg" alt="Third slide">
           <div class="container">
             <div class="carousel-caption">
               <h1>One more for good measure.</h1>

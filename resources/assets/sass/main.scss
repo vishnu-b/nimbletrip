@@ -33,6 +33,12 @@ body {
   }
 }
 
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+  display: block;
+    margin: auto;
+    max-width: none;
+}
+
 
 @media (max-width: 767px) {
   .navbar-default {

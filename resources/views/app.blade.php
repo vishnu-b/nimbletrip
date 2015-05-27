@@ -25,7 +25,7 @@
 
         <div class="collapse navbar-collapse" id="navbar">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="/nimbletrip/">Home</a></li>
+            <li><a href="/nimbletrip/" class="active">Home</a></li>
             <li><a href="/nimbletrip/service_providers">About Us</a></li>
             <li><a href="/nimbletrip/contact">Contact Us</a></li>
           </ul>

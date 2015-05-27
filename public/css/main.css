@@ -5792,6 +5792,35 @@ button.close {
 body {
   font-family: "Raleway"; }
 
+.container-fluid {
+  padding: 0; }
+
+header {
+  margin-top: -20px;
+  text-align: center;
+  color: #fff;
+  background-attachment: local;
+  background-image: url("http://thumb101.shutterstock.com/display_pic_with_logo/479563/479563,1290618621,3/stock-photo-group-of-happy-young-people-dancing-at-the-beach-on-beautiful-summer-sunset-collage-65835523.jpg");
+  background-position: center top;
+  background-repeat: none;
+  background-size: cover;
+  -o-background-size: cover; }
+  header .intro-text {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 150px;
+    padding-bottom: 150px; }
+    header .intro-text .intro-lead-in {
+      margin-bottom: 25px;
+      font-size: 22px;
+      line-height: 22px; }
+    header .intro-text .intro-heading {
+      margin-bottom: 25px;
+      text-transform: uppercase;
+      font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+      font-size: 50px;
+      font-weight: 700;
+      line-height: 50px; }
+
 .navbar-default {
   min-height: 70px;
   border: none;

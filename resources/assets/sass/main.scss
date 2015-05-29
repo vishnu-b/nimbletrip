@@ -33,10 +33,16 @@ body {
   }
 }
 
+#image-slider {
+  margin-top: -20px;
+}
+
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
   display: block;
-    margin: auto;
-    max-width: none;
+  margin: auto;
+  max-width: none;
+  min-height: 400px;
+  max-height: 400px;
 }
 
 
@@ -53,4 +59,12 @@ body {
   .navbar .brand {
     max-height: 40px;
   }
+
+  .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    display: block;
+    margin: auto;
+    max-width: none;
+    min-height: 350px;
+    max-height: 350px;
+}
 }

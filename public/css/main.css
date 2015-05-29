@@ -5816,10 +5816,15 @@ body {
 .navbar .name {
   margin-top: 6px; }
 
+#image-slider {
+  margin-top: -20px; }
+
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
   display: block;
   margin: auto;
-  max-width: none; }
+  max-width: none;
+  min-height: 400px;
+  max-height: 400px; }
 
 @media (max-width: 767px) {
   .navbar-default {
@@ -5829,6 +5834,12 @@ body {
     padding-top: 10px;
     padding-bottom: 10px; }
   .navbar .brand {
-    max-height: 40px; } }
+    max-height: 40px; }
+  .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    display: block;
+    margin: auto;
+    max-width: none;
+    min-height: 350px;
+    max-height: 350px; } }
 
 /*# sourceMappingURL=main.css.map */

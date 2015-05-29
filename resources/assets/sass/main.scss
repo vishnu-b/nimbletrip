@@ -1,4 +1,5 @@
 @import "bootstrap";
+@import "font-awesome";
 
 body {
   font-family: "Raleway";
@@ -14,10 +15,15 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+
 .navbar-nav > li > a {
-    padding-top: 0px;
-    padding-bottom: 0px;
-    line-height: 70px;
+  margin-top: 20px;
+  padding: 0px 12px 0px 12px;
+  line-height: 30px;
+  &.active {
+    color: #298bea;
+    border-bottom: 2px solid;
+  }
 }
 
 .navbar {
@@ -44,20 +50,50 @@ body {
   min-height: 400px;
   max-height: 400px;
 }
+.jumbotron {
+  background: #fff;
+}
+
+.popular-packages-icon {
+  padding: 7px;
+  border: 2px solid;
+  border-radius: 50%;
+}
+
+figure {
+  margin-bottom: 20px;
+  figcaption {
+    padding: 2px;
+    color: #000;
+  }
+}
 
 
 @media (max-width: 767px) {
   .navbar-default {
-    min-height: 50px;
+    min-height: 60px;
   }
   .navbar-nav > li > a {
     line-height: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 0;
   }
+  .navbar-nav > li > a {
+      margin-top: 5px;
+      padding: 0px 12px 0px 12px;
+      line-height: 30px;
+      &.active {
+        color: #298bea;
+        border-bottom: none;
+      }
+    }
 
   .navbar .brand {
     max-height: 40px;
+  }
+  #image-slider {
+    margin-top: -30px;
   }
 
   .carousel-inner > .item > img, .carousel-inner > .item > a > img {

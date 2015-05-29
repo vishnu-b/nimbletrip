@@ -12,7 +12,7 @@
 */
 
 Route::get('nimbletrip/', function () {
-    return view('app', [
+    return view('pages.home', [
         'title' => 'Home'
     ]);
 });

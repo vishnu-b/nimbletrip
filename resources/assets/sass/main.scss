@@ -63,8 +63,19 @@ body {
 figure {
   margin-bottom: 20px;
   figcaption {
+    background: #C1CFDA;
     padding: 2px;
     color: #000;
+  }
+}
+
+.figure {
+  a {
+    figure:hover {
+      -webkit-box-shadow: 0px 0px 11px 0px rgba(0, 0, 0,1);
+      -moz-box-shadow: 0px 0px 11px 0px rgba(0, 0, 0,1);
+      box-shadow: 0px 0px 11px 0px rgba(0, 0, 0,1);
+    }
   }
 }
 

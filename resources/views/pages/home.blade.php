@@ -54,7 +54,7 @@
       <div class="col-sm-12 col-md-4 col-lg-4 figure">
         <a href="pic">
           <figure>
-            <img src="http://www.keralatourismmart.com/Imgs/kerala-tourism.jpg" alt="" class="img-responsive">
+            <img src="http://1.bp.blogspot.com/_vzK_JffYUqY/S8cLLs5FKhI/AAAAAAAAAoc/FuogkAdd-3w/s400/kerala+tours.jpg" alt="" class="img-responsive">
             <figcaption>
               <div class="row">
                 <div class="col-sm-12">
@@ -64,6 +64,50 @@
               <div class="row">
                 <div class="col-sm-6">
                   Starting from $1,000
+                </div>
+                <div class="col-sm-6 text-right">
+                  3N/ Person
+                </div>
+              </div>
+            </figcaption>
+          </figure>
+        </a>
+      </div>
+      <div class="col-sm-12 col-md-4 col-lg-4 figure">
+        <a href="pic">
+          <figure>
+            <img src="http://www.vii.in/images/S/shillong/Shillong-1.jpg" alt="" class="img-responsive">
+            <figcaption>
+              <div class="row">
+                <div class="col-sm-12">
+                  <b>Shillong</b>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-6">
+                  Starting from $1,000
+                </div>
+                <div class="col-sm-6 text-right">
+                  3N/ Person
+                </div>
+              </div>
+            </figcaption>
+          </figure>
+        </a>
+      </div>
+      <div class="col-sm-12 col-md-4 col-lg-4 figure">
+        <a href="pic">
+          <figure>
+            <img src="http://winwallpaperhd.com/wp-content/uploads/2014/10/hussain_sagar_hyderabad-400x300.jpg" alt="" class="img-responsive">
+            <figcaption>
+              <div class="row">
+                <div class="col-sm-12">
+                  <b>Hyderabad</b>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-6">
+                  Starting from $3,000
                 </div>
                 <div class="col-sm-6 text-right">
                   3N/ Person

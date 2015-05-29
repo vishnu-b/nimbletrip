@@ -47,8 +47,8 @@ body {
   display: block;
   margin: auto;
   max-width: none;
-  min-height: 400px;
-  max-height: 400px;
+  min-height: 530px;
+  max-height: 530px;
 }
 .jumbotron {
   background: #fff;
@@ -61,9 +61,14 @@ body {
 }
 
 figure {
+  -webkit-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0,1);
+  -moz-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0,1);
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0,1);
   margin-bottom: 20px;
+  img {
+
+  }
   figcaption {
-    background: #C1CFDA;
     padding: 2px;
     color: #000;
   }

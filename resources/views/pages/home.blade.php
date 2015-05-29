@@ -9,7 +9,7 @@
     </ol>
     <div class="carousel-inner" role="listbox">
       <div class="item active">
-        <img class="first-slide" src="http://www.tranquiltrip.com/wp-content/uploads/2014/01/himalayas-web1.jpg" alt="First slide">
+        <img class="first-slide" src="{{ URL::asset('nimbletrip/images/himalayas.jpg') }}" alt="First slide">
         <div class="container">
           <div class="carousel-caption">
             <h1>Explore the Himalayas</h1>
@@ -19,7 +19,7 @@
         </div>
       </div>
       <div class="item">
-        <img class="second-slide" src="http://www.savestrathdearn.com/wp-content/uploads/2014/06/News.jpg" alt="Second slide">
+        <img class="second-slide" src="{{ URL::asset('nimbletrip/images/meghalaya.jpg') }}" alt="Second slide">
         <div class="container">
           <div class="carousel-caption">
             <h1>Experience the Grasslands of Meghalaya</h1>
@@ -54,7 +54,7 @@
       <div class="col-sm-12 col-md-4 col-lg-4 figure">
         <a href="pic">
           <figure>
-            <img src="http://1.bp.blogspot.com/_vzK_JffYUqY/S8cLLs5FKhI/AAAAAAAAAoc/FuogkAdd-3w/s400/kerala+tours.jpg" alt="" class="img-responsive">
+            <img src="{{ URL::asset('nimbletrip/images/kerala.jpg') }}" alt="" class="img-responsive">
             <figcaption>
               <div class="row">
                 <div class="col-sm-12">
@@ -76,7 +76,7 @@
       <div class="col-sm-12 col-md-4 col-lg-4 figure">
         <a href="pic">
           <figure>
-            <img src="http://www.vii.in/images/S/shillong/Shillong-1.jpg" alt="" class="img-responsive">
+            <img src="{{ URL::asset('nimbletrip/images/shillong.jpg') }}" alt="" class="img-responsive">
             <figcaption>
               <div class="row">
                 <div class="col-sm-12">
@@ -98,7 +98,7 @@
       <div class="col-sm-12 col-md-4 col-lg-4 figure">
         <a href="pic">
           <figure>
-            <img src="http://winwallpaperhd.com/wp-content/uploads/2014/10/hussain_sagar_hyderabad-400x300.jpg" alt="" class="img-responsive">
+            <img src="{{ URL::asset('nimbletrip/images/hyderabad.jpg') }}" alt="" class="img-responsive">
             <figcaption>
               <div class="row">
                 <div class="col-sm-12">
